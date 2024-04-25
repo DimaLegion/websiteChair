@@ -1,0 +1,50 @@
+
+
+{% extends 'main/base.html' %}
+
+{% block title %}
+Коллекция стульев
+{% endblock %}
+
+
+{% block content %}
+<div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Коллекция стульев</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Скандинавский стиль</h3>
+        <p>Мода, практичность и красота – эти три слова лучше всего характеризуют представленный стиль. Он лаконичен, сдержан, легок и естественен.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Модерн</h3>
+        <p>Стулья модерн славятся своим разнообразием. Формы их порой отличаются крайней нестандартностью.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Барокко</h3>
+        <p>Неспроста такие стулья так часто встречаются в домах людей, которым важно, что их окружает в повседневной жизни.</p>
+        <a href="#" class="icon-link">
+          Call to action
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
